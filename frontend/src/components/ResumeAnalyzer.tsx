@@ -55,12 +55,13 @@ export default function ResumeAnalyzer() {
                 body: formData,
             });
 
+            const responseData = await response.json().catch(() => null);
+
             if (!response.ok) {
-                throw new Error(`Error: ${response.statusText}`);
+                throw new Error(responseData?.message || `Error: ${response.statusText || response.status}`);
             }
 
-            const { data } = await response.json();
-            setResult(data);
+            setResult(responseData?.data);
         } catch (err) {
             setError(err instanceof Error ? err.message : 'Failed to analyze resume');
         } finally {
