@@ -1,6 +1,10 @@
 # 🚀 Resume Analyzer (Gemini AI)
 
-An **AI-powered Resume Analyzer** that evaluates resumes against job descriptions and provides an **ATS score**, skill gap analysis, and actionable feedback — built using **Gemini SDK**, **Node.js**, and **React (Vite)**.
+An **AI-powered Resume Analyzer** that evaluates resumes against job descriptions and provides an **ATS score**, skill gap analysis, and actionable feedback — built using **Gemini SDK**, **Java Spring Boot 3**, and **React (Vite)**.
+
+### 🔗 Live Production Demo:
+* 💻 **Live Web App**: [https://frontend-two-ashen-89.vercel.app](https://frontend-two-ashen-89.vercel.app)
+* ⚙️ **Backend API**: [https://ai-resume-analyzer-using-gemini-ai-production.up.railway.app](https://ai-resume-analyzer-using-gemini-ai-production.up.railway.app)
 
 ### 📽️ *Demo video* ###
 https://youtu.be/W1Q_tCvhmXQ?si=cEDNwbKWBnaP5iiA
