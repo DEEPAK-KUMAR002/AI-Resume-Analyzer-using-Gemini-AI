@@ -58,7 +58,7 @@ export default function ResumeAnalyzer() {
             const responseData = await response.json().catch(() => null);
 
             if (!response.ok) {
-                throw new Error(responseData?.message || `Error: ${response.statusText || response.status}`);
+                throw new Error(responseData?.error || responseData?.message || `Error: ${response.statusText || response.status}`);
             }
 
             setResult(responseData?.data);

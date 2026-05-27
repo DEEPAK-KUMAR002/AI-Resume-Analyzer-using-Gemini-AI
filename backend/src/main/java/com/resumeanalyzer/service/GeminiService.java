@@ -55,7 +55,7 @@ public class GeminiService {
                 )
         );
 
-        String url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=" + apiKey.trim();
+        String url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + apiKey.trim();
 
         try {
             String response = restClient.post()

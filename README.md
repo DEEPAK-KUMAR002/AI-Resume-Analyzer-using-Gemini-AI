@@ -88,18 +88,48 @@ VITE_API_URL=http://localhost:3000
 
 ## 🚀 Running Locally
 
-### Backend
+Follow these step-by-step instructions to run the application on your local machine.
 
-```bash
-cd backend
-mvn clean compile
-mvn spring-boot:run
-```
+### Step 1: Run the Backend (Spring Boot)
 
-### Frontend
+1. Open your terminal and navigate to the `backend` directory:
+   ```bash
+   cd backend
+   ```
+2. Build and compile the project (optional but recommended for first time):
+   ```bash
+   mvn clean compile
+   ```
+3. Run the Spring Boot application:
+   ```bash
+   mvn spring-boot:run
+   ```
+4. The backend server will start running on port **3000**.
+   * 🔗 **Backend API Link**: [http://localhost:3000](http://localhost:3000)
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+### Step 2: Run the Frontend (React + Vite)
+
+1. Open a new, separate terminal and navigate to the `frontend` directory:
+   ```bash
+   cd frontend
+   ```
+2. Install the required Node dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the Vite development server:
+   ```bash
+   npm run dev
+   ```
+4. The frontend application will start running on port **5173**.
+   * 🔗 **Frontend Web App Link**: [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🔗 Local Access Links
+
+Once both servers are running successfully, you can access them using the links below:
+
+* 💻 **Web Application (UI)**: [http://localhost:5173](http://localhost:5173)
+* ⚙️ **Backend Server (REST API)**: [http://localhost:3000](http://localhost:3000)
+
