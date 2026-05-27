@@ -7,7 +7,7 @@ An **AI-powered Resume Analyzer** that evaluates resumes against job description
 * ⚙️ **Backend API**: [https://ai-resume-analyzer-using-gemini-ai-production.up.railway.app](https://ai-resume-analyzer-using-gemini-ai-production.up.railway.app)
 
 ### 📽️ *Demo video* ###
-https://youtu.be/W1Q_tCvhmXQ?si=cEDNwbKWBnaP5iiA
+https://youtu.be/p-pzutdDoMk
 
 ---
 ## ✨ Features
